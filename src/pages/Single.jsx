@@ -1,0 +1,38 @@
+
+import Edit from "../component/Images/edit.png"
+import Delete from "../component/Images/delete.png"
+import { Link } from 'react-router-dom'
+import Menu from '../component/Menu'
+
+function Single() {
+  return (
+    <div className='single'>
+     <div className="content">
+      <img src="https://www.livemint.com/lm-img/img/2023/05/26/600x338/Clashes-broke-out-in-Manipur-on-May-3-following-th_1685010777753_1685079579577.jpg"/>
+    <div className="user">
+      <img src="data:image/jpeg;base64,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"/>
+    <div className="info">
+      <span>Sana</span>
+      <p>Posted 2 ago</p>
+    </div>
+    <div className="edit">
+      <Link to={`/write?edit=2`}> 
+
+      <img src={Edit}/>
+      </Link>
+      <img src={Delete}/>
+    </div>
+    </div>
+    <h1>Many killed in Manipur riots; State government issues shoot-at-sight order</h1>
+     <p>
+The Manipur government on May 4 issued a shoot-at-sight order in “extreme cases”, as escalating ethnic violence following a tribal solidarity march displaced more than 9,000 people in the State. There was no official confirmation of the number of people killed or injured in the violence, but Chief Minister Nongthombam Biren Singh admitted that “some precious lives were lost”.
+
+Clashes initially broke out during the course of Wednesday’s solidarity march, called by the All Tribal Students’ Union, Manipur. Scheduled Tribe communities, mostly from the Kuki-Zomi tribal group, are protesting a move to grant a long-standing demand for Scheduled Tribe (ST) status to the Meitei community, which makes up the majority of the State’s population. On April 19, the Manipur High Court directed the State government to submit its recommendation to include the Meitei community in the ST list to the Union Tribal Affairs Ministry by May 29.</p>
+     </div>
+     <Menu/>
+
+    </div>
+  )
+}
+
+export default Single
