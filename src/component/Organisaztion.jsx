@@ -29,7 +29,7 @@ function Organization(){
         img:"https://scontent.fshl2-1.fna.fbcdn.net/v/t39.30808-1/380530724_122100549230047741_8537550397101032457_n.jpg?stp=c0.0.320.320a_dst-jpg_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=596444&_nc_ohc=sakEtrZXM4YAX8vpmKA&_nc_ht=scontent.fshl2-1.fna&oh=00_AfAzSJrAGTti4De25DCqj397PAL5vIiGH4cbFDBhxI8tDw&oe=65CA58CA",
         }, 
         {id: 4,
-          title: "ITLF-ndeginous Tribal Leader Forums",
+          title: "ITLF-Indeginous Tribal Leader Forums",
           description: "It was established o JUne 09,2022 at the KIC office in Torbung Bangla. Most of them are Kuki's.They helped themselve Among Kukis People .   ",
           img: "https://scontent.fshl2-1.fna.fbcdn.net/v/t39.30808-6/420129942_122132184680088622_878632657628011884_n.jpg?stp=dst-jpg_p720x720&_nc_cat=106&ccb=1-7&_nc_sid=783fdb&_nc_ohc=D5VroGryDFgAX8kpp7o&_nc_ht=scontent.fshl2-1.fna&oh=00_AfB2La0Qj_7sloF8M0fvw1sjrJVN-7UzzAbURjU5Zt8t6g&oe=65CADA1B",
     },  
