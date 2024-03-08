@@ -23,6 +23,8 @@ import October from './component/October';
 import ReliefCamp from './component/ReliefCamp';
 import Organization from './component/Organisaztion';
 import Dead from './component/Dead';
+import Addblog from './component/Addblog';
+import BlogDisplay from './component/BlogDisplay';
 
 
 // ...
@@ -99,6 +101,14 @@ const router = createBrowserRouter([
   {
     path:"/dead",
     element:<Dead/>
+  },
+  {
+    path:"/addblog",
+    element:<Addblog></Addblog>
+  },
+  {
+    path:"/displayblog",
+    element:<BlogDisplay></BlogDisplay>
   },
 
 ]);

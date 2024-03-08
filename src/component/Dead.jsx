@@ -162,7 +162,7 @@ img:"https://scontent.fshl2-1.fna.fbcdn.net/v/t39.30808-6/427904514_361690294524
     id: 25 ,
     title: " Angom Rakesh ",
     description: "S/o A.Tombi from Phaiyeng ",
-    img:"https://scontent.fshl2-1.fna.fbcdn.net/v/t39.30808-6/428002318_3616902471914719_848318652082351950_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=iP6RORXJLsYAX83WrQE&_nc_ht=scontent.fshl2-1.fna&oh=00_AfDvYF9_WZAQR-VanAeD3j0bQdieeFsO6jwZ3_SXHcru7Q&oe=65CF279E"
+    img:"https://scontent.fshl2-1.fna.fbcdn.net/v/t39.30808-6/428002318_3616902471914719_848318652082351950_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=RAvovSuAR0gAX-wzCn0&_nc_ht=scontent.fshl2-1.fna&oh=00_AfB312SbcTb14lHqtbeM3J4tCNyfIEtdtlRzVLng-k2PHQ&oe=65E6E29E"
     } ,{id:26 ,
         title: "Ningombam Ibomcha ",
         description: "S/o Th.Shyamkesho Singh from Wangjing",
