@@ -24,10 +24,10 @@ function BlogDisplay() {
                 <p>No Blogs Found</p>
             ) : (
                 blogs.map((blog) => (
-                    <div className="blog-cont" key={blog.id}>
+                    <div className=".posta" key={blog.id}>
                         <div className="section1">
-                            <p>{blog.title}</p>
-                            <p>{blog.createdby}</p>
+                            <p className="titles">{blog.title}</p>
+                            <p className="datea">{blog.createdby}</p>
                         </div>
                         <div className="section2">
                             <img src={blog.imgurl} alt="blog" />

@@ -25,7 +25,7 @@ function Addblog() {
  }
   return (
     <div className='addblog-form'>
-        <p>Add a new news</p>
+        <p>Add  News</p>
         <form onSubmit={handleSubmit}>
             <label>Name</label>
             <input name="username" placeholder="enter your name" type='text'onChange={(e)=>
