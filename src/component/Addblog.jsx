@@ -1,6 +1,10 @@
 import { useState } from "react"
 import { Timestamp, addDoc, collection } from "firebase/firestore";
 import { database } from "../firebaseConfig";
+import Footer from '../component/Footer'
+import { Link } from "react-router-dom";
+
+import Navbar from "./Navbar";
 
 function Addblog() {
   const [createdby,setCreatedby]=useState("");
@@ -24,6 +28,10 @@ function Addblog() {
 
  }
   return (
+
+    <div>
+      <Navbar></Navbar>
+      
     <div className='addblog-form'>
         <p>Add  News</p>
         <form onSubmit={handleSubmit}>
@@ -47,6 +55,9 @@ function Addblog() {
                 <button>Submit</button>
             </div>
              </form>
+      
+    </div>
+    <Footer/>
     </div>
   )
 }

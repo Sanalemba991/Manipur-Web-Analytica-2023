@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { database } from "../firebaseConfig";
 import { onSnapshot, collection, query, orderBy } from "firebase/firestore";
-
+import Footer from '../component/Footer'
 function BlogDisplay() {
     const [blogs, setBlogs] = useState([]);
 
@@ -21,7 +21,7 @@ function BlogDisplay() {
     return (
         <div>
             {blogs.length === 0 ? (
-                <p>No Blogs Found</p>
+                <p>No News Found</p>
             ) : (
                 blogs.map((blog) => (
                     <div className=".posta" key={blog.id}>
@@ -39,7 +39,9 @@ function BlogDisplay() {
                     </div>
                 ))
             )}
+             <Footer></Footer>
         </div>
+        
     );
 }
 
