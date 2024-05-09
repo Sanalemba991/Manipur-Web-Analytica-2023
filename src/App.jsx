@@ -11,6 +11,7 @@ import {
   Outlet,
   RouterProvider,
 } from "react-router-dom";
+import Creater from './component/creater';
 import Single from './pages/Single';
 import Home from './pages/Home';
 import Navbar from './component/Navbar';
@@ -106,6 +107,10 @@ const router = createBrowserRouter([
   {
     path:"/displayblog",
     element:<BlogDisplay></BlogDisplay>
+  },
+  {
+    path:"/creater",
+    element:<Creater/>
   },
 
 ]);
