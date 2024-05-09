@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { database } from "../firebaseConfig";
 import { onSnapshot, collection, query, orderBy } from "firebase/firestore";
 import Footer from '../component/Footer'
+import Navbar from "./Navbar";
 function BlogDisplay() {
     const [blogs, setBlogs] = useState([]);
 
@@ -20,6 +21,7 @@ function BlogDisplay() {
 
     return (
         <div>
+               <Navbar></Navbar>
             {blogs.length === 0 ? (
                 <p>No News Found</p>
             ) : (
