@@ -625,3 +625,58 @@ $lightGreen: #b9e7e7;
 .Navbar {
   /* Add your navbar styles here */
 }
+/* Default styles */
+
+/* Add your default styles here */
+
+/* Media query for mobile phones */
+@media screen and (max-width: 600px) {
+  .app .container {
+    width: 100%; /* Adjust container width to fit the screen */
+  }
+
+  .app .auth,
+  .app .home .posts,
+  .app .single,
+  .app .add {
+    padding: 20px; /* Add padding to elements for better spacing */
+  }
+
+  .app .navbar .container,
+  .app footer {
+    padding: 5px; /* Adjust padding for navbar and footer */
+  }
+
+  .app .auth,
+  .app .home .posts .post,
+  .app .single .content,
+  .app .add .content,
+  .app .add .menu .item {
+    flex-direction: column; /* Adjust flex-direction for better stacking */
+    align-items: center; /* Center align items */
+  }
+
+  .app .home .posts .post:nth-child(2n+1) {
+    flex-direction: column; /* Adjust post layout for better stacking */
+  }
+
+  .app .single .menu {
+    margin-left: 0; /* Remove margin for menu in single page */
+  }
+  
+  .app .add {
+    flex-direction: column; /* Adjust layout for add page */
+  }
+
+  .app .add .content,
+  .app .add .menu {
+    flex: 1; /* Expand content and menu to take full width */
+    width: 100%; /* Set width to 100% */
+  }
+
+  .app .add .menu .item {
+    margin-left: 0; /* Remove margin for menu items */
+  }
+
+  /* Add more specific styling as needed for mobile layout */
+}
